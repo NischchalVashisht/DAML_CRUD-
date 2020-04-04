@@ -1,0 +1,36 @@
+-- Copyright (c) 2020 The DAML Authors. All rights reserved.
+-- SPDX-License-Identifier: Apache-2.0
+
+module Tests.Main where 
+
+import Main
+
+test_first  = scenario do
+  dabur <- getParty "manufacturer"
+  bigbazar <- getParty "SuperMarket"
+  buyer <- getParty "Nishchal"
+
+  product <- submit dabur do 
+    create Product
+      with
+      authority = dabur
+      wholesaler = dabur
+      consumer = dabur
+      name = "PAPERBOARD"
+
+  owner <- submit dabur do 
+    exercise product Transfer
+      with newOwner = bigbazar
+
+  submit bigbazar do
+    exercise owner AcceptOwnership
+    
+     
+    
+    
+
+
+    
+
+
+        
