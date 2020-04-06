@@ -32,6 +32,7 @@ sbt “application/runMain com.knoldus.Operation localhost 6865”
 ## Scenarios covered
 
 Case where Manufacture goes to wholesaler and wholesaler accepts the product then ownership transfer from manufacturer to wholesaler.
+
 Case where Manufacturer produces product on the request of Client in such case Client is Owner from beginning.
 
 ## Scenario execution
