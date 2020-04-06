@@ -28,9 +28,9 @@ daml sandbox ./.daml/dist/quickstart-0.0.1.dar
 
 ## Scenarios covered
 
-Case where Manufacture goes to wholesaler and wholesaler accepts the product then ownership transfer from manufacturer to wholesaler.
+Case where manufacture goes to wholesaler and wholesaler accepts the product then ownership transfer from manufacturer to wholesaler.
 
-Case where Manufacturer produces product on the request of Client in such case Client is Owner from beginning.
+Case where manufacturer produces product on the request of client in such case client is owner from beginning.
 
 ## Scenario execution
 Run test scenarios using 
