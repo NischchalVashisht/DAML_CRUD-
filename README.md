@@ -2,15 +2,15 @@
 
 ## Following example shows Tri-party contract between
  1: Manufacturer
- 2: Distributor / wholesaler
+ 2: Distributor / Wholesaler
  3: Consumer
 
-There are two possible cases where Manufacturer provides his service to Wholesaler.
-By providing a JobWork facility to Wholesaler where Wholesaler come with request of   producing a particular product with definite quantity.
-By producing their own product and making a proposal to Wholesaler.
+There are two possible cases where manufacturer provides his service to wholesaler.
+By providing a jobwork facility to wholesaler where wholesaler come with request of producing a particular product with definite quantity.
+By producing their own product and making a proposal to wholesaler.
 
 
- With production of any product a ownership tag is attached with it so in case of Job work    product is produced by manufacturer but ownership of product is held to Client. While in cases where the manufacturer produces their own product  ownership lies to the manufacturer.
+ With production of any product a ownership tag is attached with it so in case of jobwork product is produced by manufacturer but ownership of product is held to Client. While in cases where the manufacturer produces their own product ownership lies to the manufacturer.
 
 ## Compile
 Create dar file using
@@ -25,10 +25,7 @@ Finally start the sandbox with the dar file created at first step
 ```bash
 daml sandbox ./.daml/dist/quickstart-0.0.1.dar
 ```
-Open another terminal and run the application using
-```bash
-sbt “application/runMain com.knoldus.Operation localhost 6865”
-```
+
 ## Scenarios covered
 
 Case where Manufacture goes to wholesaler and wholesaler accepts the product then ownership transfer from manufacturer to wholesaler.
