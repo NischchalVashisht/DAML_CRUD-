@@ -1,9 +1,9 @@
 
 # DAML_CRUD-
 
-# DAML_CRUD-
+# Overview
 
-## Following example shows Tri-party contract between
+### Following example shows Tri-party contract between
  1: Manufacturer
  2: Distributor / wholesaler
  3: Consumer
