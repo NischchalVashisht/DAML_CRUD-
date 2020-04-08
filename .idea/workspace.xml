@@ -2,129 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9c305ec-2b61-4700-a4f6-09e0cd143cd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/ClientUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/DecodeUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/FutureUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/ProductMain.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/application/application$sources/0.0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/application/application$sources/0.0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/application/application_2.12/0.0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/application/application_2.12/0.0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/CancelOwnership.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/IouProposal_Accept.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/Proposal.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/RejectOwnership.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen$sources-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/reports/scala-codegen-scala-codegen_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/scala-codegen/scala-codegen$sources/0.0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/scala-codegen/scala-codegen$sources/0.0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/scala-codegen/scala-codegen_2.12/0.0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/scala-2.12/resolution-cache/scala-codegen/scala-codegen_2.12/0.0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-codegen/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.daml/dist/ProductChain-0.0.1.dar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.daml/interfaces/daml/Main.hi" beforeDir="false" afterPath="$PROJECT_DIR$/.daml/interfaces/daml/Main.hi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.daml/interfaces/daml/Main.hie" beforeDir="false" afterPath="$PROJECT_DIR$/.daml/interfaces/daml/Main.hie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.daml/interfaces/daml/Tests/Main.hi" beforeDir="false" afterPath="$PROJECT_DIR$/.daml/interfaces/daml/Tests/Main.hi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.daml/interfaces/daml/Tests/Main.hie" beforeDir="false" afterPath="$PROJECT_DIR$/.daml/interfaces/daml/Tests/Main.hie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDK_VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/SDK_VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/Operation.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daml.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/daml.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daml/Main.daml" beforeDir="false" afterPath="$PROJECT_DIR$/daml/Main.daml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/EventDecoder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/EventDecoder.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/PackageIDs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/PackageIDs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/AcceptOwnership.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/AcceptOwnership.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/Product.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/Product.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/Transfer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/Transfer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/TransferOwnership.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-codegen/src/main/scala/com/knoldus/model/main/TransferOwnership.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/ProductMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/ProductMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/scala-2.12/application_2.12-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/scala-2.12/application_2.12-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox.log" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

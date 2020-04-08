@@ -84,7 +84,7 @@ object ProductMain extends App with StrictLogging {
     _ = logger.info(s"Client API initialization completed, Ledger ID: ${clientUtil.toString}")
     createCmd = iou.create
     _ <- clientUtil.submitCommand(manufacturer, issuerWorkflowId, createCmd)
-    _ = logger.info(s"$manufacturer created IOU: $iou")
+    _ = logger.info(s"$manufacturer created Product: $iou")
     _ = logger.info(s"$manufacturer sent create command: $createCmd")
 
     tx0 <- clientUtil.nextTransaction(manufacturer, offset0)(amat)
@@ -98,7 +98,7 @@ object ProductMain extends App with StrictLogging {
 
     _ <- clientUtil.submitCommand(manufacturer, issuerWorkflowId, exerciseCmd)
     _ = logger.info(s"$manufacturer sent exercise command: $exerciseCmd")
-    _ = logger.info(s"$manufacturer transferred IOU: $manufContract to: $distributor")
+    _ = logger.info(s"$manufacturer transferred OwnerShip: $manufContract to: $distributor")
 
 
 
@@ -114,13 +114,26 @@ object ProductMain extends App with StrictLogging {
     productTransferContract <- toFuture(decodeAllCreated[M.TransferOwnership](tx1).headOption)
     _ = logger.info(s"$manufacturer received confirmation for the IOU Transfer: $productTransferContract")
 
-
+/*
     offset2 <- clientUtil.ledgerEnd
 
     exerciseSecondCmd = manufContract.contractId.exerciseTransfer(actor = distributor, newOwner = buyer,newWholeSaler = distributor,newConsumer = buyer)
-    _ <- clientUtil.submitCommand(d, issuerWorkflowId, exerciseCmd)
+    _ <- clientUtil.submitCommand(distributor, newOwnerWorkflowId, exerciseSecondCmd)
+    _ = logger.info(s"$distributor sent exercise command: $exerciseCmd")
+    _ = logger.info(s"$distributor transferred IOU: $manufContract to: $buyer")
+
+    tx2 <- clientUtil.nextTransaction(distributor, offset2)(amat)
+    _ = logger.info(s"$distributor received final transaction: $tx2")
+
+    archivedProductContract <- toFuture(decodeArchived[M.Product](tx2)): Future[P.ContractId[M.Product]]
+    _ = logger.info(
+      s"$manufacturer received Archive Event for the original IOU contract ID: $archivedProductContract")
+    _ <- Future(assert(manufContract.contractId == archivedProductContract))
+    productTransferContract <- toFuture(decodeAllCreated[M.TransferOwnership](tx2).headOption)
+    _ = logger.info(s"$manufacturer received confirmation for the IOU Transfer: $productTransferContract")
 
 
+*/
   } yield ()
 
   val returnCodeF: Future[Int] = issuerFlow.transform {

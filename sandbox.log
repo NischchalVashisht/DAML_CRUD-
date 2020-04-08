@@ -12,3 +12,29 @@
 17:33:17.470 [sandbox-akka.actor.default-dispatcher-465] INFO  c.d.p.a.services.ApiCommandService - Shutting down Command Service (context: {participantId=sandbox-participant}) 
 17:33:17.471 [sandbox-akka.actor.default-dispatcher-465] INFO  c.d.p.a.services.tracking.TrackerMap - Shutting down 0 trackers (context: {participantId=sandbox-participant}) 
 17:33:17.610 [sandbox-akka.actor.default-dispatcher-465] WARN  akka.actor.CoordinatedShutdown - Could not addJvmShutdownHook, due to: Shutdown in progress akkaAddress=akka://sandbox, sourceThread=pool-1-thread-7, akkaSource=CoordinatedShutdown(akka://sandbox), sourceActorSystem=sandbox, akkaTimestamp=12:03:17.608UTC
+20:00:34.150 [sandbox-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started 
+20:00:36.667 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.platform.apiserver.ApiServices - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7, 8, 9; Value versions: 1, 2, 3, 4, 5, 6, 7 (context: {participantId=sandbox-participant}) 
+20:00:37.857 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.p.a.services.ApiCommandService - Shutting down Command Service (context: {participantId=sandbox-participant}) 
+20:00:37.858 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.p.a.services.tracking.TrackerMap - Shutting down 0 trackers (context: {participantId=sandbox-participant}) 
+20:00:38.100 [main] ERROR c.d.resources.ProgramResource - Shutting down because of an initialization error. 
+com.digitalasset.platform.apiserver.LedgerApiServer$UnableToBind: LedgerApiServer was unable to bind to port 6865. User should terminate the process occupying the port, or choose a different one.
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1332)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:984)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:355)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
