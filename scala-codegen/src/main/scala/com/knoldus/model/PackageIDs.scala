@@ -20,6 +20,6 @@ package com.knoldus.model {
     val `DA.Validation.Types`: _root_.scala.Predef.String = "99a2705ed38c1c26cbb8fe7acf36bbf626668e167a33335de932599219e0a235";
     val `GHC.Tuple`: _root_.scala.Predef.String = "6839a6d3d430c569b2425e9391717b44ca324b88ba621d597778811b2d05031d";
     val `GHC.Types`: _root_.scala.Predef.String = "518032f41fd0175461b35ae0c9691e08b4aea55e62915f8360af2cc7a1f2ba6c";
-    val Main: _root_.scala.Predef.String = "6e92b5cd1b8011c5c8a3f35780e0910aee39bed92aa453c56804ad53cdf52623"
+    val Main: _root_.scala.Predef.String = "db178fa67d6e253effc71aa182e52f4b0123cb9da7897c2807ea5f85d2c5d75a"
   }
 }

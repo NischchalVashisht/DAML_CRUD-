@@ -10,7 +10,7 @@ isSnapshot := true
 lazy val parent = project
   .in(file("."))
   .settings(
-    name := "ProductChain",
+    name := "quickstart-scala",
     publishArtifact in (Compile, packageDoc) := false,
     publishArtifact in (Compile, packageSrc) := false
   )
@@ -49,9 +49,9 @@ lazy val commonSettings = Seq(
   resolvers ++= daResolvers,
   classpathTypes += "maven-plugin",
 )
+
 // <doc-ref:dependencies>
 lazy val codeGenDependencies = Seq(
-
   "com.daml.scala" %% "bindings" % daSdkVersion,
 )
 

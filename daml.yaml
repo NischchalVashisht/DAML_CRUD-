@@ -1,12 +1,11 @@
 sdk-version: 0.13.55
-name: ProductChain
+name: Product
 source: daml
 init-script: Setup:initialize
-
 parties:
-  - manufacturer
-  - wholesaler
-  - Nischal
+  - emami
+  - bigbazar
+  - Nishchal  
 version: 0.0.1
 exposed-modules:
   - Main

@@ -19,7 +19,7 @@ package com.knoldus.model {
       implicit val `AcceptOwnership Value`: ` lfdomainapi`.Value[_root_.com.knoldus.model.Main.AcceptOwnership] = {
         final class $anon extends this.`Value ValueRef`[_root_.com.knoldus.model.Main.AcceptOwnership] {
           override def write(value: _root_.com.knoldus.model.Main.AcceptOwnership): ` rpcvalue`.Value.Sum = ` record`();
-          override def read(argValue: ` rpcvalue`.Value.Sum): _root_.scala.Option[_root_.com.knoldus.model.Main.AcceptOwnership] = argValue.record.flatMap(((x$2) => _root_.scala.Some(AcceptOwnership())))
+          override def read(argValue: ` rpcvalue`.Value.Sum): _root_.scala.Option[_root_.com.knoldus.model.Main.AcceptOwnership] = argValue.record.flatMap(((x$3) => _root_.scala.Some(AcceptOwnership())))
         };
         new $anon()
       };

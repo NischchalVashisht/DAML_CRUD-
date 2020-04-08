@@ -5,38 +5,67 @@ module Main where
 
 template Product
   with
-    authority:Party
+    manufacturer:Party
     wholesaler:Party
     consumer:Party
     name:Text
-
+    ownership:Party
   where
-    signatory authority,wholesaler,consumer
+    signatory ownership
     
-    controller authority can
+    controller ownership can
       Transfer: ContractId TransferOwnership 
-        with newOwner: Party
+        with newOwner: Party,newWholeSaler:Party,newConsumer:Party
         do
+          assertMsg "newOwner cannot be equal to actually authority owner." (ownership /= newOwner)
           create TransferOwnership
             with
                product= this
-               newOwner 
+               newOwner
+               newWholeSaler
+               newConsumer
+    
+    
+template Proposal
+  with
+    product : Product
+  where
+    signatory product.ownership
+
+    controller product.wholesaler can
+      IouProposal_Accept
+        : ContractId Product
+        do
+          create product
+
+
 
 
 template TransferOwnership
   with
     product: Product
     newOwner: Party
+    newWholeSaler:Party
+    newConsumer:Party
 
   where 
-    signatory product.authority,product.wholesaler,product.consumer
+    signatory product.ownership
 
+    
+    controller newOwner can
+      RejectOwnership: ContractId Product
+        do
+          create product 
+
+
+    controller newOwner can
+      CancelOwnership: ContractId Product
+        do
+          create product 
+        
+    
     controller newOwner can
       AcceptOwnership: ContractId Product
         do
-          create product with authority = newOwner
+          create product with ownership = newOwner , wholesaler = newWholeSaler , consumer = newConsumer
     
-
-
-
-        
